@@ -1,0 +1,66 @@
+@media (max-width: 900px) {
+    .home-container {
+        max-width: 600px;
+        height: 95vh;    
+    }
+    
+    .home-container .content {
+        padding: 70px;
+    }
+
+    .home-container .content header {
+        max-width: 140px;
+    }
+
+    .home-container .content header .logo img {
+        width: 137px;
+        height: 61px;
+    }
+
+    .home-container .content main {
+        width: 100%;
+        padding-top: 32px;
+    }
+        
+    .home-container .content main .info {
+        width: 248px;
+        height: 112px;
+    
+        margin-top: 32px;
+        margin-left: 40px;
+        padding-left: 0px;
+    
+        display: flex;
+        align-items: center;
+    }
+        
+    .home-container .content main .info span p {
+        font-size: 15px;
+    }
+
+    .home-container .content main .info span {
+        width: 184px;
+
+        display: flex;
+    }
+
+    .home-container .content main .info a strong {
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    .home-container .content main .info a {
+        max-width: 192px;
+        height: 40px;
+        border-radius: 8px;
+    }
+    
+    .home-container .content main .snake img {
+        width: 191px;
+        height: 188.5px;
+    }
+
+    .home-container .content main .snake {
+        margin-left: 32px;
+    }
+}
