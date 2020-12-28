@@ -13,13 +13,13 @@ let food = {
 }
 
 function createBackground(){
-    context.fillStyle = "lightgreen";
+    context.fillStyle = "#AAD951";
     context.fillRect(0, 0, 16 * box, 16 * box);
 }
 
 function createSnake(){
     for(i=0; i < snake.length; i++){
-        context.fillStyle = "green";
+        context.fillStyle = "#7CA81D";
         context.fillRect(snake[i].x, snake[i].y, box, box)
     }
 }
