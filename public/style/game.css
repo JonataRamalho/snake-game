@@ -1,9 +1,25 @@
-body {
-    height: 95vh;
-    width: 95;
+.game-container {
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container .content {
+    width: 100%;
+    padding: 80px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: rgb(44, 139, 44);
+}
+
+.game-container .content canvas{
+    border-radius: 16px;
 }
